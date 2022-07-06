@@ -36,7 +36,7 @@ services:
 
   nginx:
     restart: unless-stopped
-    container_name: testing
+    container_name: umk_back
     build: .nginx
     volumes:
       - static:/app/static
